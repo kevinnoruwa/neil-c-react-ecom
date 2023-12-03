@@ -45,6 +45,7 @@ try
 {
     context.Database.Migrate();
     DbInitializer.Initialize(context);
+  
 }
 catch (Exception ex)
 {
