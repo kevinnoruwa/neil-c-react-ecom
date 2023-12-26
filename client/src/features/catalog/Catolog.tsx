@@ -12,11 +12,14 @@ export default function Catalog() {
       .then((data) => setProducts(data));
   }, []);
 
+
+ 
   
 
   return (
     <>
       <ProductList products={products} />
+    
   
     </>
   );
